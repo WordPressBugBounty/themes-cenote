@@ -1,15 +1,15 @@
 === Cenote ===
 Author: ThemeGrill
-Requires at least: WordPress 4.7
-Tested up to: 6.8
-Requires PHP: 5.6
+Requires at least: 5.3
+Tested up to: 7.1
+Requires PHP: 7.4
 Version: 1.4.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: one-column, Right-sidebar, grid-layout, custom-background, custom-colors, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, rtl-language-support, e-commerce
 
 == Description ==
-Cenote is beautifully designed clean WordPress blog theme. Easy to setup and has a nice set of features that make your site stand out. It is suitable for personal, fashion, food, travel, business, professional, niche and any kind of blogging sites. Comes with various demos for various purposes, which you can easily import with the help of ThemeGrill Demo Importer plugin.
+Cenote is beautifully designed clean WordPress blog theme. Easy to setup and has a nice set of features that make your site stand out. It is suitable for personal, fashion, food, travel, business, professional, niche and any kind of blogging sites. Comes with various demos for various purposes, which you can easily import with the help of Starter Templates & Sites Pack by ThemeGrill plugin.
 
 For more information about Cenote please go to https://themegrill.com/themes/cenote
 
@@ -86,6 +86,16 @@ License: GNU GPL, Version 3, https://www.gnu.org/licenses/gpl-3.0.html
 Unless otherwise specified, all the theme files, scripts and images including the screenshot image are licensed under [GNU GPL] (http://www.gnu.org/licenses/gpl-3.0.txt), version 3 or later.
 
 == Changelog ==
+= Version 1.4.3 - 2026-10-08 =
+* Update - Declare PHP 7.4 and WordPress 5.3 minimums, tested up to WordPress 7.1.
+* Update - Starter Templates plugin name in the welcome notice.
+* Fix - Kirki deprecation warnings.
+* Fix - Remove the swipe gesture from the mobile menu.
+* Fix - PHP 8 warnings when a widget is saved without every field.
+* Fix - TG: Recent Posts widget is available again and placed widgets show on the site.
+* Update - Stop loading hammer.js, which the mobile menu no longer uses.
+* Fix - Theme check issues in the bundled Kirki: single text domain, no composer platform check, and WordPress spelling.
+
 = Version 1.4.2 - 2025-08-12 =
 * Update - General security measure.
 
